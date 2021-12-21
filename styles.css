@@ -1,0 +1,89 @@
+/* COLLECTION */
+
+
+
+/* COLOR VARIABLES
+----------------------------------------------- */
+:root {
+  --dark: #FFFFFF;
+  --light: #82A9A9;
+}
+
+
+
+
+/* BASE STYLES
+----------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--light); 
+  color: var(--dark);
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 6px solid var(--dark);
+}
+
+
+
+
+/* TYPOGRAPHY
+----------------------------------------------- */
+a {
+  text-decoration: none;
+  color:var(--dark);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 50px;
+  line-height: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 85px;
+  margin-left: 760px;
+}
+
+
+
+/* NAVIGATION
+----------------------------------------------- */
+header {
+   border-right: 1px solid var(--dark);
+}
+
+nav {
+  font-size: 50px;
+  line-height: 85px; 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+
+/* MAIN
+----------------------------------------------- */
+
+.object-image { 
+  max-width: 66.6%;
+}
